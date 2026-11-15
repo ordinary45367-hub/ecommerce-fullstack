@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: beige;
+        padding: 4px 40px;
+        background-color: #012804;
+        color: white;
+      }
+      ul {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+      }
+      li {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+      }
+      .humberger {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+      }
+      span {
+        width: 25px;
+        height: 3px;
+        background-color: black;
+      }
+      @media (max-width: 750px) {
+        .humberger {
+          display: flex;
+          cursor: pointer;
+        }
+        ul {
+          display: none;
+          flex-direction: column;
+          align-items: center;
+          position: absolute;
+          top: 45px;
+          left: 0;
+          right: 0;
+          background-color: rgb(221, 219, 219);
+        }
+        .active {
+          display: flex;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <h1>Simple Nav</h1>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+          <li><a href="#">service</a></li>
+        </ul>
+      </div>
+      <div class="humberger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <script>
+      const humberger = document.querySelector(".humberger");
+      const navLink = document.querySelector("ul");
+      humberger.addEventListener("click", (e) => {
+        navLink.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

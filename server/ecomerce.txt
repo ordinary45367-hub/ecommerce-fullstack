@@ -1,0 +1,200 @@
+https://chatgpt.com/share/6aed7c64-6a9c-83ea-a550-e9d661e421ea?ogimg=plain
+postgrule=kalid04985493
+DATABASE_URL="mysql://root:YOUR_PASSWORD@localhost:3306/ecommerce_db"
+# Connect to Postgres via the shared transaction-mode pooler (IPv4-only)
+DATABASE_URL="postgresql://postgres.fnsvnkedkkqjdyiegeig:[YOUR-PASSWORD]@aws-1-eu-central-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+
+# Connect to Postgres via the shared session-mode pooler (used for migrations)
+DIRECT_URL="postgresql://postgres.fnsvnkedkkqjdyiegeig:[YOUR-PASSWORD]@aws-1-eu-central-1.pooler.supabase.com:5432/postgres"
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+npm install prisma --save-dev
+
+npx prisma init
+
+npx prisma migrate dev --name add_user_role
+
+npx prisma db push
+
+
+
+
+
+
+
+
+
+
+
+
+4. Backend API endpoints to practice
+Method	Endpoint	Purpose
+
+POST	/api/auth/register	Register
+POST	/api/auth/login	Login
+
+GET	/api/products	Get all products
+GET	/api/products/:id	Get one product
+POST	/api/products	Create product (admin)
+PUT	/api/products/:id	Update product (admin)
+DELETE	/api/products/:id	Delete product (admin)
+
+
+GET	/api/categories	Get categories
+
+
+POST	/api/cart/items	Add to cart
+GET	/api/cart	View cart
+PUT	/api/cart/items/:id	Update quantity
+DELETE	/api/cart/items/:id	Remove item
+
+
+POST	/api/orders	Checkout
+GET	/api/orders/my-orders	Customer orders
+GET	/api/orders	All orders (admin)
+PATCH	/api/orders/:id/status	Update order status
+POST	/api/payments	Record payment
+
+{
+   "email":"kalid@example.com","abdella@Example.com"
+   "password":"password123" 
+}
+[
+  {
+    "name": "Wireless Noise-Canceling Headphones",
+    "price": 149.99,
+    "categoryId": 1,
+    "quantity": 45,
+    "description": "Premium over-ear headphones with active noise cancellation, 40-hour battery life, and spatial audio support."
+  },
+  {
+    "name": "Classic Waterproof Windbreaker",
+    "price": 89.95,
+    "categoryId": 2,
+    "quantity": 25,
+    "description": "A lightweight, weather-resistant windbreaker jacket featuring an adjustable hood and breathable mesh lining."
+  },
+  {
+    "name": "Mechanical Gaming Keyboard",
+    "price": 119.00,
+    "categoryId": 1,
+    "quantity": 30,
+    "description": "RGB backlit mechanical keyboard with hot-swappable tactile switches and premium aluminum top frame."
+  },
+  {
+    "name": "Slim-Fit Stretch Denim Jeans",
+    "price": 59.99,
+    "categoryId": 2,
+    "quantity": 60,
+    "description": "Classic five-pocket jeans crafted from durable stretch-denim cotton blend for maximum flexibility."
+  },
+  {
+    "name": "Ergonomic Office Desk Chair",
+    "price": 245.50,
+    "categoryId": 3,
+    "quantity": 12,
+    "description": "High-back mesh chair featuring adjustable 3D armrests, dynamic lumbar support, and smooth tilt locking."
+  },
+  {
+    "name": "Stainless Steel Espresso Machine",
+    "price": 189.00,
+    "categoryId": 3,
+    "quantity": 18,
+    "description": "15-bar professional pressure espresso and cappuccino maker with an integrated steam frother wand."
+  },
+  {
+    "name": "Pro Grip Yoga Mat",
+    "price": 39.99,
+    "categoryId": 4,
+    "quantity": 85,
+    "description": "Non-slip eco-friendly TPE exercise mat, 6mm thick with alignment lines for optimal joint cushioning."
+  },
+  {
+    "name": "Waterproof Backpacking Tent",
+    "price": 129.95,
+    "categoryId": 4,
+    "quantity": 14,
+    "description": "Lightweight 2-person double-layer camping tent with a seam-taped rainfly and micro-mesh canopy layout."
+  },
+  {
+    "name": "Introduction to Database Systems",
+    "price": 49.00,
+    "categoryId": 5,
+    "quantity": 150,
+    "description": "A comprehensive textbook detailing relational query structures, normalization, transaction processing, and indexes."
+  },
+  {
+    "name": "Minimalist Ceramic Water Bottle",
+    "price": 34.00,
+    "categoryId": 3,
+    "quantity": 120,
+    "description": "Double-wall vacuum insulated container keeping drinks ice cold for 24 hours or piping hot for 12 hours."
+  }
+]
+
+
+
+
+
+
+
+Add one error helper that maps Prisma codes P2002/P2003/P2025 to 409/400/404.
+
+
+
+
+
+
+
+
+
+{
+  "success": true,
+  "cart": {
+    "id": 1,
+    "userId": 2,
+    "status": "ACTIVE",
+    "createdAt": "2026-11-07T11:04:40.269Z",
+    "items": [
+      {
+        "id": 3,
+        "cartId": 1,
+        "productId": 1,
+        "quantity": 10,
+        "product": {
+          "id": 1,
+          "name": "Wireless Noise-Canceling Headphones",
+          "description": "Premium over-ear headphones with active noise cancellation, 40-hour battery life, and spatial audio support.",
+          "price": "149.99",
+          "stockQuantity": 45,
+          "categoryId": 1,
+          "createdAt": "2026-11-06T20:06:32.681Z"
+        }
+      },
+      {
+        "id": 2,
+        "cartId": 1,
+        "productId": 2,
+        "quantity": 15,
+        "product": {
+          "id": 2,
+          "name": "Classic Waterproof Windbreaker",
+          "description": "A lightweight, weather-resistant windbreaker jacket featuring an adjustable hood, zippered utility pockets, and a breathable mesh lining.",
+          "price": "89.95",
+          "stockQuantity": 25,
+          "categoryId": 2,
+          "createdAt": "2026-11-06T20:17:48.424Z"
+        }
+      }
+    ]
+  }
+}

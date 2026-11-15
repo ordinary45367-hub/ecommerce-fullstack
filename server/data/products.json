@@ -1,0 +1,1925 @@
+{
+  "categories": [
+    {
+      "name": "Electronics",
+      "description": "Gadgets, accessories and everyday tech"
+    },
+    {
+      "name": "Clothing & Apparel",
+      "description": "Everyday clothing, footwear and accessories"
+    },
+    {
+      "name": "Home & Kitchen",
+      "description": "Cookware, appliances, bedding and home essentials"
+    },
+    {
+      "name": "Sports & Outdoors",
+      "description": "Fitness gear, camping equipment and outdoor sports"
+    },
+    {
+      "name": "Books & Media",
+      "description": "Books, stationery and media"
+    }
+  ],
+  "products": [
+    {
+      "name": "Wireless Bluetooth Earbuds",
+      "slug": "wireless-bluetooth-earbuds",
+      "category": "Electronics",
+      "price": 39.99,
+      "description": "True wireless earbuds with charging case and 24-hour battery life.",
+      "stockQuantity": 57,
+      "imageQuery": "wireless earbuds"
+    },
+    {
+      "name": "Over-Ear Noise Cancelling Headphones",
+      "slug": "over-ear-noise-cancelling-headphones",
+      "category": "Electronics",
+      "price": 129.99,
+      "description": "Comfortable over-ear headphones with active noise cancellation.",
+      "stockQuantity": 94,
+      "imageQuery": "over ear headphones"
+    },
+    {
+      "name": "Portable Bluetooth Speaker",
+      "slug": "portable-bluetooth-speaker",
+      "category": "Electronics",
+      "price": 49.99,
+      "description": "Water-resistant speaker with deep bass and 12-hour playtime.",
+      "stockQuantity": 131,
+      "imageQuery": "bluetooth speaker"
+    },
+    {
+      "name": "10000mAh Power Bank",
+      "slug": "10000mah-power-bank",
+      "category": "Electronics",
+      "price": 24.99,
+      "description": "Slim portable charger with dual USB output.",
+      "stockQuantity": 168,
+      "imageQuery": "power bank"
+    },
+    {
+      "name": "Smartwatch with Heart Rate Monitor",
+      "slug": "smartwatch-with-heart-rate-monitor",
+      "category": "Electronics",
+      "price": 89.99,
+      "description": "Tracks steps, sleep and heart rate with phone notifications.",
+      "stockQuantity": 24,
+      "imageQuery": "smartwatch"
+    },
+    {
+      "name": "Fitness Tracker Band",
+      "slug": "fitness-tracker-band",
+      "category": "Electronics",
+      "price": 34.99,
+      "description": "Lightweight activity band with step and sleep tracking.",
+      "stockQuantity": 61,
+      "imageQuery": "fitness tracker"
+    },
+    {
+      "name": "4K Action Camera",
+      "slug": "4k-action-camera",
+      "category": "Electronics",
+      "price": 119.99,
+      "description": "Waterproof action camera with image stabilization.",
+      "stockQuantity": 98,
+      "imageQuery": "action camera"
+    },
+    {
+      "name": "USB-C Fast Charger 30W",
+      "slug": "usb-c-fast-charger-30w",
+      "category": "Electronics",
+      "price": 19.99,
+      "description": "Compact wall charger for phones and tablets.",
+      "stockQuantity": 135,
+      "imageQuery": "usb c charger"
+    },
+    {
+      "name": "Wireless Charging Pad",
+      "slug": "wireless-charging-pad",
+      "category": "Electronics",
+      "price": 22.99,
+      "description": "Qi-compatible charging pad for compatible phones.",
+      "stockQuantity": 172,
+      "imageQuery": "wireless charger"
+    },
+    {
+      "name": "Mechanical Gaming Keyboard",
+      "slug": "mechanical-gaming-keyboard",
+      "category": "Electronics",
+      "price": 69.99,
+      "description": "RGB backlit keyboard with tactile mechanical switches.",
+      "stockQuantity": 28,
+      "imageQuery": "mechanical keyboard"
+    },
+    {
+      "name": "Wireless Optical Mouse",
+      "slug": "wireless-optical-mouse",
+      "category": "Electronics",
+      "price": 17.99,
+      "description": "Ergonomic wireless mouse with adjustable DPI.",
+      "stockQuantity": 65,
+      "imageQuery": "wireless computer mouse"
+    },
+    {
+      "name": "27-Inch Full HD Monitor",
+      "slug": "27-inch-full-hd-monitor",
+      "category": "Electronics",
+      "price": 159.99,
+      "description": "IPS display with thin bezels and HDMI input.",
+      "stockQuantity": 102,
+      "imageQuery": "computer monitor"
+    },
+    {
+      "name": "1080p Webcam with Microphone",
+      "slug": "1080p-webcam-with-microphone",
+      "category": "Electronics",
+      "price": 44.99,
+      "description": "Plug-and-play webcam for video calls and streaming.",
+      "stockQuantity": 139,
+      "imageQuery": "webcam"
+    },
+    {
+      "name": "Portable SSD 1TB",
+      "slug": "portable-ssd-1tb",
+      "category": "Electronics",
+      "price": 99.99,
+      "description": "Pocket-sized external solid state drive with fast transfers.",
+      "stockQuantity": 176,
+      "imageQuery": "external ssd"
+    },
+    {
+      "name": "USB Flash Drive 64GB",
+      "slug": "usb-flash-drive-64gb",
+      "category": "Electronics",
+      "price": 11.99,
+      "description": "Compact USB 3.0 flash drive for files and backups.",
+      "stockQuantity": 32,
+      "imageQuery": "usb flash drive"
+    },
+    {
+      "name": "Smart LED Light Bulb 4-Pack",
+      "slug": "smart-led-light-bulb-4-pack",
+      "category": "Electronics",
+      "price": 24.99,
+      "description": "Color-changing Wi-Fi bulbs controlled by app.",
+      "stockQuantity": 69,
+      "imageQuery": "smart light bulb"
+    },
+    {
+      "name": "Dual Band Wi-Fi Router",
+      "slug": "dual-band-wi-fi-router",
+      "category": "Electronics",
+      "price": 59.99,
+      "description": "Fast home router with wide coverage and four ports.",
+      "stockQuantity": 106,
+      "imageQuery": "wifi router"
+    },
+    {
+      "name": "10-Inch Tablet 64GB",
+      "slug": "10-inch-tablet-64gb",
+      "category": "Electronics",
+      "price": 179.99,
+      "description": "Lightweight tablet for reading, video and browsing.",
+      "stockQuantity": 143,
+      "imageQuery": "tablet computer"
+    },
+    {
+      "name": "6-Inch E-Reader",
+      "slug": "6-inch-e-reader",
+      "category": "Electronics",
+      "price": 99.99,
+      "description": "Glare-free e-ink screen with adjustable backlight.",
+      "stockQuantity": 180,
+      "imageQuery": "e-reader"
+    },
+    {
+      "name": "Aluminum Laptop Stand",
+      "slug": "aluminum-laptop-stand",
+      "category": "Electronics",
+      "price": 29.99,
+      "description": "Adjustable ergonomic stand that improves airflow.",
+      "stockQuantity": 36,
+      "imageQuery": "laptop stand"
+    },
+    {
+      "name": "HDMI Cable 2m",
+      "slug": "hdmi-cable-2m",
+      "category": "Electronics",
+      "price": 9.99,
+      "description": "High-speed HDMI cable supporting 4K video.",
+      "stockQuantity": 73,
+      "imageQuery": "hdmi cable"
+    },
+    {
+      "name": "Indoor Security Camera",
+      "slug": "indoor-security-camera",
+      "category": "Electronics",
+      "price": 39.99,
+      "description": "1080p Wi-Fi camera with night vision and motion alerts.",
+      "stockQuantity": 110,
+      "imageQuery": "security camera"
+    },
+    {
+      "name": "Wired Over-Ear Gaming Headset",
+      "slug": "wired-over-ear-gaming-headset",
+      "category": "Electronics",
+      "price": 44.99,
+      "description": "Stereo headset with boom microphone and padded ear cups.",
+      "stockQuantity": 147,
+      "imageQuery": "gaming headset"
+    },
+    {
+      "name": "Bluetooth Soundbar 2.1",
+      "slug": "bluetooth-soundbar-2-1",
+      "category": "Electronics",
+      "price": 79.99,
+      "description": "Slim TV soundbar with wireless subwoofer.",
+      "stockQuantity": 184,
+      "imageQuery": "soundbar"
+    },
+    {
+      "name": "Compact Digital Camera 20MP",
+      "slug": "compact-digital-camera-20mp",
+      "category": "Electronics",
+      "price": 189.99,
+      "description": "Pocket point-and-shoot with 5x optical zoom.",
+      "stockQuantity": 40,
+      "imageQuery": "compact digital camera"
+    },
+    {
+      "name": "Instant Print Camera",
+      "slug": "instant-print-camera",
+      "category": "Electronics",
+      "price": 89.99,
+      "description": "Fun instant camera that prints photos in seconds.",
+      "stockQuantity": 77,
+      "imageQuery": "instant camera"
+    },
+    {
+      "name": "Drone with HD Camera",
+      "slug": "drone-with-hd-camera",
+      "category": "Electronics",
+      "price": 149.99,
+      "description": "Foldable beginner drone with stable hover and camera.",
+      "stockQuantity": 114,
+      "imageQuery": "quadcopter drone"
+    },
+    {
+      "name": "Mini Projector 1080p",
+      "slug": "mini-projector-1080p",
+      "category": "Electronics",
+      "price": 129.99,
+      "description": "Portable projector for movies and presentations.",
+      "stockQuantity": 151,
+      "imageQuery": "video projector"
+    },
+    {
+      "name": "Wireless Gaming Controller",
+      "slug": "wireless-gaming-controller",
+      "category": "Electronics",
+      "price": 54.99,
+      "description": "Ergonomic controller with rechargeable battery.",
+      "stockQuantity": 188,
+      "imageQuery": "game controller"
+    },
+    {
+      "name": "Handheld Retro Game Console",
+      "slug": "handheld-retro-game-console",
+      "category": "Electronics",
+      "price": 49.99,
+      "description": "Portable console with built-in classic games.",
+      "stockQuantity": 44,
+      "imageQuery": "handheld game console"
+    },
+    {
+      "name": "Noise Isolating Wired Earphones",
+      "slug": "noise-isolating-wired-earphones",
+      "category": "Electronics",
+      "price": 12.99,
+      "description": "In-ear earphones with inline mic and 3.5mm plug.",
+      "stockQuantity": 81,
+      "imageQuery": "earphones"
+    },
+    {
+      "name": "Smart Speaker with Voice Assistant",
+      "slug": "smart-speaker-with-voice-assistant",
+      "category": "Electronics",
+      "price": 39.99,
+      "description": "Voice-controlled speaker for music and smart home.",
+      "stockQuantity": 118,
+      "imageQuery": "smart speaker"
+    },
+    {
+      "name": "Digital Alarm Clock Radio",
+      "slug": "digital-alarm-clock-radio",
+      "category": "Electronics",
+      "price": 19.99,
+      "description": "LED display clock radio with dual alarms.",
+      "stockQuantity": 155,
+      "imageQuery": "alarm clock"
+    },
+    {
+      "name": "Rechargeable AA Batteries 8-Pack",
+      "slug": "rechargeable-aa-batteries-8-pack",
+      "category": "Electronics",
+      "price": 18.99,
+      "description": "Long-life NiMH batteries with storage case.",
+      "stockQuantity": 192,
+      "imageQuery": "AA batteries"
+    },
+    {
+      "name": "Surge Protector Power Strip",
+      "slug": "surge-protector-power-strip",
+      "category": "Electronics",
+      "price": 21.99,
+      "description": "6-outlet power strip with USB ports and switch.",
+      "stockQuantity": 48,
+      "imageQuery": "power strip"
+    },
+    {
+      "name": "Portable Mini Fan USB",
+      "slug": "portable-mini-fan-usb",
+      "category": "Electronics",
+      "price": 9.99,
+      "description": "Rechargeable handheld fan with three speeds.",
+      "stockQuantity": 85,
+      "imageQuery": "electric fan"
+    },
+    {
+      "name": "Ergonomic Vertical Mouse",
+      "slug": "ergonomic-vertical-mouse",
+      "category": "Electronics",
+      "price": 27.99,
+      "description": "Vertical mouse that reduces wrist strain.",
+      "stockQuantity": 122,
+      "imageQuery": "vertical mouse"
+    },
+    {
+      "name": "Drawing Tablet 10-Inch",
+      "slug": "drawing-tablet-10-inch",
+      "category": "Electronics",
+      "price": 59.99,
+      "description": "Pressure-sensitive pen tablet for digital art.",
+      "stockQuantity": 159,
+      "imageQuery": "graphics tablet"
+    },
+    {
+      "name": "Bluetooth Keyboard Slim",
+      "slug": "bluetooth-keyboard-slim",
+      "category": "Electronics",
+      "price": 32.99,
+      "description": "Multi-device wireless keyboard for tablets and phones.",
+      "stockQuantity": 196,
+      "imageQuery": "computer keyboard"
+    },
+    {
+      "name": "Laser Printer Monochrome",
+      "slug": "laser-printer-monochrome",
+      "category": "Electronics",
+      "price": 129.99,
+      "description": "Fast black-and-white laser printer with Wi-Fi.",
+      "stockQuantity": 52,
+      "imageQuery": "laser printer"
+    },
+    {
+      "name": "Selfie Stick Tripod",
+      "slug": "selfie-stick-tripod",
+      "category": "Electronics",
+      "price": 15.99,
+      "description": "Extendable stick with Bluetooth remote.",
+      "stockQuantity": 89,
+      "imageQuery": "selfie stick"
+    },
+    {
+      "name": "Digital Kitchen Scale",
+      "slug": "digital-kitchen-scale",
+      "category": "Electronics",
+      "price": 13.99,
+      "description": "Precision scale with tare and LCD display.",
+      "stockQuantity": 126,
+      "imageQuery": "kitchen scale"
+    },
+    {
+      "name": "Men's Cotton Crew Neck T-Shirt",
+      "slug": "men-s-cotton-crew-neck-t-shirt",
+      "category": "Clothing & Apparel",
+      "price": 14.99,
+      "description": "Soft breathable cotton tee in a classic fit.",
+      "stockQuantity": 163,
+      "imageQuery": "men t-shirt"
+    },
+    {
+      "name": "Women's Slim Fit Jeans",
+      "slug": "women-s-slim-fit-jeans",
+      "category": "Clothing & Apparel",
+      "price": 39.99,
+      "description": "Stretch denim jeans with a flattering slim cut.",
+      "stockQuantity": 200,
+      "imageQuery": "women jeans"
+    },
+    {
+      "name": "Men's Hooded Fleece Sweatshirt",
+      "slug": "men-s-hooded-fleece-sweatshirt",
+      "category": "Clothing & Apparel",
+      "price": 34.99,
+      "description": "Warm fleece-lined hoodie with kangaroo pocket.",
+      "stockQuantity": 56,
+      "imageQuery": "hoodie"
+    },
+    {
+      "name": "Women's Summer Floral Dress",
+      "slug": "women-s-summer-floral-dress",
+      "category": "Clothing & Apparel",
+      "price": 32.99,
+      "description": "Lightweight knee-length dress with floral print.",
+      "stockQuantity": 93,
+      "imageQuery": "floral dress"
+    },
+    {
+      "name": "Men's Classic Denim Jacket",
+      "slug": "men-s-classic-denim-jacket",
+      "category": "Clothing & Apparel",
+      "price": 59.99,
+      "description": "Durable denim jacket with button front.",
+      "stockQuantity": 130,
+      "imageQuery": "denim jacket"
+    },
+    {
+      "name": "Women's Wool Blend Winter Coat",
+      "slug": "women-s-wool-blend-winter-coat",
+      "category": "Clothing & Apparel",
+      "price": 89.99,
+      "description": "Insulated long coat for cold weather.",
+      "stockQuantity": 167,
+      "imageQuery": "winter coat"
+    },
+    {
+      "name": "Unisex Running Sneakers",
+      "slug": "unisex-running-sneakers",
+      "category": "Clothing & Apparel",
+      "price": 54.99,
+      "description": "Cushioned lightweight sneakers for daily runs.",
+      "stockQuantity": 23,
+      "imageQuery": "running shoes"
+    },
+    {
+      "name": "Leather Casual Belt",
+      "slug": "leather-casual-belt",
+      "category": "Clothing & Apparel",
+      "price": 19.99,
+      "description": "Genuine leather belt with metal buckle.",
+      "stockQuantity": 60,
+      "imageQuery": "leather belt"
+    },
+    {
+      "name": "Men's Chino Pants",
+      "slug": "men-s-chino-pants",
+      "category": "Clothing & Apparel",
+      "price": 36.99,
+      "description": "Versatile cotton chinos for work or weekends.",
+      "stockQuantity": 97,
+      "imageQuery": "chino pants"
+    },
+    {
+      "name": "Women's Yoga Leggings",
+      "slug": "women-s-yoga-leggings",
+      "category": "Clothing & Apparel",
+      "price": 24.99,
+      "description": "High-waist stretch leggings for training or lounging.",
+      "stockQuantity": 134,
+      "imageQuery": "yoga leggings"
+    },
+    {
+      "name": "Cotton Ankle Socks 6-Pack",
+      "slug": "cotton-ankle-socks-6-pack",
+      "category": "Clothing & Apparel",
+      "price": 12.99,
+      "description": "Breathable everyday socks with reinforced heel.",
+      "stockQuantity": 171,
+      "imageQuery": "socks"
+    },
+    {
+      "name": "Knit Winter Beanie",
+      "slug": "knit-winter-beanie",
+      "category": "Clothing & Apparel",
+      "price": 11.99,
+      "description": "Warm stretch-knit hat for cold days.",
+      "stockQuantity": 27,
+      "imageQuery": "winter beanie"
+    },
+    {
+      "name": "Wool Blend Scarf",
+      "slug": "wool-blend-scarf",
+      "category": "Clothing & Apparel",
+      "price": 17.99,
+      "description": "Soft long scarf in a classic pattern.",
+      "stockQuantity": 64,
+      "imageQuery": "wool scarf"
+    },
+    {
+      "name": "Leather Winter Gloves",
+      "slug": "leather-winter-gloves",
+      "category": "Clothing & Apparel",
+      "price": 27.99,
+      "description": "Lined leather gloves with touchscreen fingertips.",
+      "stockQuantity": 101,
+      "imageQuery": "leather gloves"
+    },
+    {
+      "name": "Adjustable Baseball Cap",
+      "slug": "adjustable-baseball-cap",
+      "category": "Clothing & Apparel",
+      "price": 13.99,
+      "description": "Cotton twill cap with curved brim.",
+      "stockQuantity": 138,
+      "imageQuery": "baseball cap"
+    },
+    {
+      "name": "Men's Button-Down Oxford Shirt",
+      "slug": "men-s-button-down-oxford-shirt",
+      "category": "Clothing & Apparel",
+      "price": 29.99,
+      "description": "Long-sleeve cotton shirt for smart-casual wear.",
+      "stockQuantity": 175,
+      "imageQuery": "oxford shirt"
+    },
+    {
+      "name": "Women's Knit Cardigan Sweater",
+      "slug": "women-s-knit-cardigan-sweater",
+      "category": "Clothing & Apparel",
+      "price": 33.99,
+      "description": "Cozy open-front cardigan with pockets.",
+      "stockQuantity": 31,
+      "imageQuery": "cardigan sweater"
+    },
+    {
+      "name": "Waterproof Rain Jacket",
+      "slug": "waterproof-rain-jacket",
+      "category": "Clothing & Apparel",
+      "price": 49.99,
+      "description": "Packable hooded jacket that keeps you dry.",
+      "stockQuantity": 68,
+      "imageQuery": "rain jacket"
+    },
+    {
+      "name": "Men's Polo Shirt",
+      "slug": "men-s-polo-shirt",
+      "category": "Clothing & Apparel",
+      "price": 22.99,
+      "description": "Classic piqué polo with ribbed collar.",
+      "stockQuantity": 105,
+      "imageQuery": "polo shirt"
+    },
+    {
+      "name": "Women's Leather Ankle Boots",
+      "slug": "women-s-leather-ankle-boots",
+      "category": "Clothing & Apparel",
+      "price": 79.99,
+      "description": "Stylish ankle boots with a low block heel.",
+      "stockQuantity": 142,
+      "imageQuery": "ankle boots"
+    },
+    {
+      "name": "Men's Leather Dress Shoes",
+      "slug": "men-s-leather-dress-shoes",
+      "category": "Clothing & Apparel",
+      "price": 84.99,
+      "description": "Polished lace-up shoes for formal occasions.",
+      "stockQuantity": 179,
+      "imageQuery": "men dress shoes"
+    },
+    {
+      "name": "Cotton Pajama Set",
+      "slug": "cotton-pajama-set",
+      "category": "Clothing & Apparel",
+      "price": 28.99,
+      "description": "Two-piece sleepwear set in soft cotton.",
+      "stockQuantity": 35,
+      "imageQuery": "pajama set"
+    },
+    {
+      "name": "Polarized Sunglasses",
+      "slug": "polarized-sunglasses",
+      "category": "Clothing & Apparel",
+      "price": 21.99,
+      "description": "UV400 protective sunglasses with durable frame.",
+      "stockQuantity": 72,
+      "imageQuery": "sunglasses"
+    },
+    {
+      "name": "Women's Crew Neck Sweater",
+      "slug": "women-s-crew-neck-sweater",
+      "category": "Clothing & Apparel",
+      "price": 31.99,
+      "description": "Soft knit sweater in a relaxed fit.",
+      "stockQuantity": 109,
+      "imageQuery": "knitted sweater"
+    },
+    {
+      "name": "Men's Cargo Shorts",
+      "slug": "men-s-cargo-shorts",
+      "category": "Clothing & Apparel",
+      "price": 24.99,
+      "description": "Cotton cargo shorts with multiple pockets.",
+      "stockQuantity": 146,
+      "imageQuery": "cargo shorts"
+    },
+    {
+      "name": "Women's Denim Shorts",
+      "slug": "women-s-denim-shorts",
+      "category": "Clothing & Apparel",
+      "price": 22.99,
+      "description": "High-rise denim shorts with a frayed hem.",
+      "stockQuantity": 183,
+      "imageQuery": "denim shorts"
+    },
+    {
+      "name": "Men's Leather Wallet",
+      "slug": "men-s-leather-wallet",
+      "category": "Clothing & Apparel",
+      "price": 25.99,
+      "description": "Bifold leather wallet with card slots.",
+      "stockQuantity": 39,
+      "imageQuery": "leather wallet"
+    },
+    {
+      "name": "Women's Leather Handbag",
+      "slug": "women-s-leather-handbag",
+      "category": "Clothing & Apparel",
+      "price": 69.99,
+      "description": "Spacious shoulder bag with zip closure.",
+      "stockQuantity": 76,
+      "imageQuery": "leather handbag"
+    },
+    {
+      "name": "Canvas Backpack",
+      "slug": "canvas-backpack",
+      "category": "Clothing & Apparel",
+      "price": 35.99,
+      "description": "Durable everyday backpack with laptop sleeve.",
+      "stockQuantity": 113,
+      "imageQuery": "backpack"
+    },
+    {
+      "name": "Men's Wool Suit Jacket",
+      "slug": "men-s-wool-suit-jacket",
+      "category": "Clothing & Apparel",
+      "price": 129.99,
+      "description": "Tailored single-breasted blazer for formal wear.",
+      "stockQuantity": 150,
+      "imageQuery": "suit jacket"
+    },
+    {
+      "name": "Silk Necktie",
+      "slug": "silk-necktie",
+      "category": "Clothing & Apparel",
+      "price": 16.99,
+      "description": "Classic woven tie in a solid color.",
+      "stockQuantity": 187,
+      "imageQuery": "necktie"
+    },
+    {
+      "name": "Women's Silk Scarf",
+      "slug": "women-s-silk-scarf",
+      "category": "Clothing & Apparel",
+      "price": 18.99,
+      "description": "Lightweight printed scarf for every season.",
+      "stockQuantity": 43,
+      "imageQuery": "silk scarf"
+    },
+    {
+      "name": "Men's Flannel Shirt",
+      "slug": "men-s-flannel-shirt",
+      "category": "Clothing & Apparel",
+      "price": 27.99,
+      "description": "Brushed cotton plaid shirt for cool days.",
+      "stockQuantity": 80,
+      "imageQuery": "flannel shirt"
+    },
+    {
+      "name": "Women's Casual Sandals",
+      "slug": "women-s-casual-sandals",
+      "category": "Clothing & Apparel",
+      "price": 23.99,
+      "description": "Cushioned sandals with adjustable straps.",
+      "stockQuantity": 117,
+      "imageQuery": "sandals"
+    },
+    {
+      "name": "Men's Slip-On Loafers",
+      "slug": "men-s-slip-on-loafers",
+      "category": "Clothing & Apparel",
+      "price": 49.99,
+      "description": "Comfortable leather loafers for work or leisure.",
+      "stockQuantity": 154,
+      "imageQuery": "loafers"
+    },
+    {
+      "name": "Women's Canvas Sneakers",
+      "slug": "women-s-canvas-sneakers",
+      "category": "Clothing & Apparel",
+      "price": 29.99,
+      "description": "Classic low-top canvas shoes.",
+      "stockQuantity": 191,
+      "imageQuery": "canvas shoes"
+    },
+    {
+      "name": "Men's Swim Trunks",
+      "slug": "men-s-swim-trunks",
+      "category": "Clothing & Apparel",
+      "price": 19.99,
+      "description": "Quick-dry trunks with mesh lining.",
+      "stockQuantity": 47,
+      "imageQuery": "swim trunks"
+    },
+    {
+      "name": "Women's One-Piece Swimsuit",
+      "slug": "women-s-one-piece-swimsuit",
+      "category": "Clothing & Apparel",
+      "price": 34.99,
+      "description": "Supportive swimsuit with a flattering cut.",
+      "stockQuantity": 84,
+      "imageQuery": "swimsuit"
+    },
+    {
+      "name": "Men's Thermal Underwear Set",
+      "slug": "men-s-thermal-underwear-set",
+      "category": "Clothing & Apparel",
+      "price": 26.99,
+      "description": "Base layer top and bottoms for winter.",
+      "stockQuantity": 121,
+      "imageQuery": "thermal underwear"
+    },
+    {
+      "name": "Unisex Wool Fedora Hat",
+      "slug": "unisex-wool-fedora-hat",
+      "category": "Clothing & Apparel",
+      "price": 28.99,
+      "description": "Structured felt hat with ribbon band.",
+      "stockQuantity": 158,
+      "imageQuery": "fedora hat"
+    },
+    {
+      "name": "Women's Trench Coat",
+      "slug": "women-s-trench-coat",
+      "category": "Clothing & Apparel",
+      "price": 94.99,
+      "description": "Belted water-resistant coat in classic beige.",
+      "stockQuantity": 195,
+      "imageQuery": "trench coat"
+    },
+    {
+      "name": "Men's Wristwatch Classic",
+      "slug": "men-s-wristwatch-classic",
+      "category": "Clothing & Apparel",
+      "price": 79.99,
+      "description": "Stainless steel analog watch with leather strap.",
+      "stockQuantity": 51,
+      "imageQuery": "wristwatch"
+    },
+    {
+      "name": "Compact Folding Umbrella",
+      "slug": "compact-folding-umbrella",
+      "category": "Clothing & Apparel",
+      "price": 14.99,
+      "description": "Windproof umbrella that fits in a bag.",
+      "stockQuantity": 88,
+      "imageQuery": "umbrella"
+    },
+    {
+      "name": "Non-Stick Frying Pan 12-Inch",
+      "slug": "non-stick-frying-pan-12-inch",
+      "category": "Home & Kitchen",
+      "price": 29.99,
+      "description": "Even-heating pan with easy-clean coating.",
+      "stockQuantity": 125,
+      "imageQuery": "frying pan"
+    },
+    {
+      "name": "Stainless Steel Cookware Set 10-Piece",
+      "slug": "stainless-steel-cookware-set-10-piece",
+      "category": "Home & Kitchen",
+      "price": 119.99,
+      "description": "Pots, pans and lids for everyday cooking.",
+      "stockQuantity": 162,
+      "imageQuery": "cookware set"
+    },
+    {
+      "name": "Electric Kettle 1.7L",
+      "slug": "electric-kettle-1-7l",
+      "category": "Home & Kitchen",
+      "price": 26.99,
+      "description": "Fast-boil kettle with auto shut-off.",
+      "stockQuantity": 199,
+      "imageQuery": "electric kettle"
+    },
+    {
+      "name": "12-Cup Drip Coffee Maker",
+      "slug": "12-cup-drip-coffee-maker",
+      "category": "Home & Kitchen",
+      "price": 44.99,
+      "description": "Programmable coffee maker with warming plate.",
+      "stockQuantity": 55,
+      "imageQuery": "coffee maker"
+    },
+    {
+      "name": "1000W Countertop Blender",
+      "slug": "1000w-countertop-blender",
+      "category": "Home & Kitchen",
+      "price": 59.99,
+      "description": "Powerful blender for smoothies and sauces.",
+      "stockQuantity": 92,
+      "imageQuery": "blender"
+    },
+    {
+      "name": "Air Fryer 5.8 Qt",
+      "slug": "air-fryer-5-8-qt",
+      "category": "Home & Kitchen",
+      "price": 79.99,
+      "description": "Cook crispy meals with little or no oil.",
+      "stockQuantity": 129,
+      "imageQuery": "air fryer"
+    },
+    {
+      "name": "2-Slice Toaster",
+      "slug": "2-slice-toaster",
+      "category": "Home & Kitchen",
+      "price": 24.99,
+      "description": "Toaster with browning control and crumb tray.",
+      "stockQuantity": 166,
+      "imageQuery": "toaster"
+    },
+    {
+      "name": "8-Inch Chef's Knife",
+      "slug": "8-inch-chef-s-knife",
+      "category": "Home & Kitchen",
+      "price": 34.99,
+      "description": "Sharp stainless steel knife with ergonomic handle.",
+      "stockQuantity": 22,
+      "imageQuery": "chef knife"
+    },
+    {
+      "name": "Wooden Cutting Board",
+      "slug": "wooden-cutting-board",
+      "category": "Home & Kitchen",
+      "price": 22.99,
+      "description": "Sturdy bamboo board with juice groove.",
+      "stockQuantity": 59,
+      "imageQuery": "wooden cutting board"
+    },
+    {
+      "name": "Glass Food Storage Containers 10-Piece",
+      "slug": "glass-food-storage-containers-10-piece",
+      "category": "Home & Kitchen",
+      "price": 27.99,
+      "description": "Leak-proof containers with snap lids.",
+      "stockQuantity": 96,
+      "imageQuery": "glass food containers"
+    },
+    {
+      "name": "Ceramic Dinnerware Set 16-Piece",
+      "slug": "ceramic-dinnerware-set-16-piece",
+      "category": "Home & Kitchen",
+      "price": 54.99,
+      "description": "Plates and bowls for four place settings.",
+      "stockQuantity": 133,
+      "imageQuery": "dinnerware set"
+    },
+    {
+      "name": "Cotton Bed Sheet Set Queen",
+      "slug": "cotton-bed-sheet-set-queen",
+      "category": "Home & Kitchen",
+      "price": 39.99,
+      "description": "Soft breathable sheets with deep pockets.",
+      "stockQuantity": 170,
+      "imageQuery": "bed sheets"
+    },
+    {
+      "name": "Memory Foam Pillow 2-Pack",
+      "slug": "memory-foam-pillow-2-pack",
+      "category": "Home & Kitchen",
+      "price": 34.99,
+      "description": "Supportive pillows that keep their shape.",
+      "stockQuantity": 26,
+      "imageQuery": "memory foam pillow"
+    },
+    {
+      "name": "Microfiber Comforter",
+      "slug": "microfiber-comforter",
+      "category": "Home & Kitchen",
+      "price": 49.99,
+      "description": "Lightweight all-season comforter.",
+      "stockQuantity": 63,
+      "imageQuery": "bed comforter"
+    },
+    {
+      "name": "LED Desk Lamp",
+      "slug": "led-desk-lamp",
+      "category": "Home & Kitchen",
+      "price": 21.99,
+      "description": "Adjustable lamp with multiple brightness levels.",
+      "stockQuantity": 100,
+      "imageQuery": "desk lamp"
+    },
+    {
+      "name": "Robot Vacuum Cleaner",
+      "slug": "robot-vacuum-cleaner",
+      "category": "Home & Kitchen",
+      "price": 189.99,
+      "description": "Self-navigating vacuum for floors and carpets.",
+      "stockQuantity": 137,
+      "imageQuery": "robot vacuum"
+    },
+    {
+      "name": "Bath Towel Set 6-Piece",
+      "slug": "bath-towel-set-6-piece",
+      "category": "Home & Kitchen",
+      "price": 32.99,
+      "description": "Absorbent cotton towels in a coordinated set.",
+      "stockQuantity": 174,
+      "imageQuery": "bath towels"
+    },
+    {
+      "name": "Shower Curtain with Hooks",
+      "slug": "shower-curtain-with-hooks",
+      "category": "Home & Kitchen",
+      "price": 16.99,
+      "description": "Water-repellent curtain with 12 hooks.",
+      "stockQuantity": 30,
+      "imageQuery": "shower curtain"
+    },
+    {
+      "name": "Electric Pressure Cooker 6 Qt",
+      "slug": "electric-pressure-cooker-6-qt",
+      "category": "Home & Kitchen",
+      "price": 69.99,
+      "description": "Multi-function cooker for fast meals.",
+      "stockQuantity": 67,
+      "imageQuery": "pressure cooker"
+    },
+    {
+      "name": "Dish Drying Rack",
+      "slug": "dish-drying-rack",
+      "category": "Home & Kitchen",
+      "price": 23.99,
+      "description": "Two-tier rack with utensil holder.",
+      "stockQuantity": 104,
+      "imageQuery": "dish drying rack"
+    },
+    {
+      "name": "Laundry Basket",
+      "slug": "laundry-basket",
+      "category": "Home & Kitchen",
+      "price": 14.99,
+      "description": "Sturdy ventilated basket with handles.",
+      "stockQuantity": 141,
+      "imageQuery": "laundry basket"
+    },
+    {
+      "name": "Scented Candle Gift Set",
+      "slug": "scented-candle-gift-set",
+      "category": "Home & Kitchen",
+      "price": 19.99,
+      "description": "Soy wax candles in assorted fragrances.",
+      "stockQuantity": 178,
+      "imageQuery": "scented candles"
+    },
+    {
+      "name": "Cast Iron Skillet 10-Inch",
+      "slug": "cast-iron-skillet-10-inch",
+      "category": "Home & Kitchen",
+      "price": 27.99,
+      "description": "Pre-seasoned skillet for stovetop and oven.",
+      "stockQuantity": 34,
+      "imageQuery": "cast iron skillet"
+    },
+    {
+      "name": "Stand Mixer 5 Qt",
+      "slug": "stand-mixer-5-qt",
+      "category": "Home & Kitchen",
+      "price": 249.99,
+      "description": "Tilt-head mixer with dough hook and whisk.",
+      "stockQuantity": 71,
+      "imageQuery": "stand mixer"
+    },
+    {
+      "name": "Rice Cooker 5-Cup",
+      "slug": "rice-cooker-5-cup",
+      "category": "Home & Kitchen",
+      "price": 34.99,
+      "description": "Automatic cooker with keep-warm function.",
+      "stockQuantity": 108,
+      "imageQuery": "rice cooker"
+    },
+    {
+      "name": "Slow Cooker 6 Qt",
+      "slug": "slow-cooker-6-qt",
+      "category": "Home & Kitchen",
+      "price": 39.99,
+      "description": "Programmable slow cooker with glass lid.",
+      "stockQuantity": 145,
+      "imageQuery": "slow cooker"
+    },
+    {
+      "name": "Microwave Oven 20L",
+      "slug": "microwave-oven-20l",
+      "category": "Home & Kitchen",
+      "price": 89.99,
+      "description": "Compact microwave with 10 power levels.",
+      "stockQuantity": 182,
+      "imageQuery": "microwave oven"
+    },
+    {
+      "name": "Waffle Maker",
+      "slug": "waffle-maker",
+      "category": "Home & Kitchen",
+      "price": 29.99,
+      "description": "Non-stick maker for golden crisp waffles.",
+      "stockQuantity": 38,
+      "imageQuery": "waffle iron"
+    },
+    {
+      "name": "Manual Citrus Juicer",
+      "slug": "manual-citrus-juicer",
+      "category": "Home & Kitchen",
+      "price": 12.99,
+      "description": "Hand-press juicer for lemons and limes.",
+      "stockQuantity": 75,
+      "imageQuery": "citrus juicer"
+    },
+    {
+      "name": "Stainless Steel Mixing Bowls Set",
+      "slug": "stainless-steel-mixing-bowls-set",
+      "category": "Home & Kitchen",
+      "price": 21.99,
+      "description": "Nesting bowls in assorted sizes.",
+      "stockQuantity": 112,
+      "imageQuery": "mixing bowl"
+    },
+    {
+      "name": "Silicone Baking Mat 2-Pack",
+      "slug": "silicone-baking-mat-2-pack",
+      "category": "Home & Kitchen",
+      "price": 14.99,
+      "description": "Reusable non-stick mats for baking sheets.",
+      "stockQuantity": 149,
+      "imageQuery": "baking sheet"
+    },
+    {
+      "name": "Glass Teapot with Infuser",
+      "slug": "glass-teapot-with-infuser",
+      "category": "Home & Kitchen",
+      "price": 24.99,
+      "description": "Heat-resistant teapot for loose-leaf tea.",
+      "stockQuantity": 186,
+      "imageQuery": "teapot"
+    },
+    {
+      "name": "Wine Glasses Set of 6",
+      "slug": "wine-glasses-set-of-6",
+      "category": "Home & Kitchen",
+      "price": 32.99,
+      "description": "Clear stemmed glasses for red or white wine.",
+      "stockQuantity": 42,
+      "imageQuery": "wine glass"
+    },
+    {
+      "name": "Ceramic Coffee Mugs Set of 4",
+      "slug": "ceramic-coffee-mugs-set-of-4",
+      "category": "Home & Kitchen",
+      "price": 22.99,
+      "description": "Microwave-safe 12 oz mugs in assorted colors.",
+      "stockQuantity": 79,
+      "imageQuery": "coffee mug"
+    },
+    {
+      "name": "Stainless Steel Cutlery Set 24-Piece",
+      "slug": "stainless-steel-cutlery-set-24-piece",
+      "category": "Home & Kitchen",
+      "price": 36.99,
+      "description": "Mirror-polished forks, knives and spoons.",
+      "stockQuantity": 116,
+      "imageQuery": "cutlery"
+    },
+    {
+      "name": "Electric Hand Mixer",
+      "slug": "electric-hand-mixer",
+      "category": "Home & Kitchen",
+      "price": 19.99,
+      "description": "5-speed mixer with beaters and dough hooks.",
+      "stockQuantity": 153,
+      "imageQuery": "hand mixer"
+    },
+    {
+      "name": "Wall Clock Round 12-Inch",
+      "slug": "wall-clock-round-12-inch",
+      "category": "Home & Kitchen",
+      "price": 16.99,
+      "description": "Silent quartz clock with a simple dial.",
+      "stockQuantity": 190,
+      "imageQuery": "wall clock"
+    },
+    {
+      "name": "Decorative Throw Pillows 2-Pack",
+      "slug": "decorative-throw-pillows-2-pack",
+      "category": "Home & Kitchen",
+      "price": 19.99,
+      "description": "Soft cushion covers with hidden zipper.",
+      "stockQuantity": 46,
+      "imageQuery": "throw pillow"
+    },
+    {
+      "name": "Floor Lamp Modern",
+      "slug": "floor-lamp-modern",
+      "category": "Home & Kitchen",
+      "price": 49.99,
+      "description": "Tall arc lamp with fabric shade.",
+      "stockQuantity": 83,
+      "imageQuery": "floor lamp"
+    },
+    {
+      "name": "Bamboo Storage Basket Set",
+      "slug": "bamboo-storage-basket-set",
+      "category": "Home & Kitchen",
+      "price": 23.99,
+      "description": "Woven baskets for shelves and closets.",
+      "stockQuantity": 120,
+      "imageQuery": "wicker basket"
+    },
+    {
+      "name": "Standing Iron and Ironing Board",
+      "slug": "standing-iron-and-ironing-board",
+      "category": "Home & Kitchen",
+      "price": 42.99,
+      "description": "Steam iron with a foldable board.",
+      "stockQuantity": 157,
+      "imageQuery": "ironing board"
+    },
+    {
+      "name": "Potted Artificial Plant",
+      "slug": "potted-artificial-plant",
+      "category": "Home & Kitchen",
+      "price": 18.99,
+      "description": "Realistic faux plant in a ceramic pot.",
+      "stockQuantity": 194,
+      "imageQuery": "potted plant"
+    },
+    {
+      "name": "Non-Slip Yoga Mat 6mm",
+      "slug": "non-slip-yoga-mat-6mm",
+      "category": "Sports & Outdoors",
+      "price": 22.99,
+      "description": "Cushioned mat with a grippy surface.",
+      "stockQuantity": 50,
+      "imageQuery": "yoga mat"
+    },
+    {
+      "name": "Adjustable Dumbbell Set 20kg",
+      "slug": "adjustable-dumbbell-set-20kg",
+      "category": "Sports & Outdoors",
+      "price": 79.99,
+      "description": "Space-saving dumbbells with adjustable weights.",
+      "stockQuantity": 87,
+      "imageQuery": "dumbbells"
+    },
+    {
+      "name": "Resistance Bands Set 5-Piece",
+      "slug": "resistance-bands-set-5-piece",
+      "category": "Sports & Outdoors",
+      "price": 15.99,
+      "description": "Latex bands in five resistance levels.",
+      "stockQuantity": 124,
+      "imageQuery": "resistance bands"
+    },
+    {
+      "name": "Speed Jump Rope",
+      "slug": "speed-jump-rope",
+      "category": "Sports & Outdoors",
+      "price": 9.99,
+      "description": "Adjustable rope with ball-bearing handles.",
+      "stockQuantity": 161,
+      "imageQuery": "jump rope"
+    },
+    {
+      "name": "Insulated Stainless Steel Water Bottle 32oz",
+      "slug": "insulated-stainless-steel-water-bottle-32oz",
+      "category": "Sports & Outdoors",
+      "price": 24.99,
+      "description": "Keeps drinks cold for 24 hours.",
+      "stockQuantity": 198,
+      "imageQuery": "water bottle"
+    },
+    {
+      "name": "4-Person Camping Tent",
+      "slug": "4-person-camping-tent",
+      "category": "Sports & Outdoors",
+      "price": 99.99,
+      "description": "Weather-resistant tent with easy setup.",
+      "stockQuantity": 54,
+      "imageQuery": "camping tent"
+    },
+    {
+      "name": "3-Season Sleeping Bag",
+      "slug": "3-season-sleeping-bag",
+      "category": "Sports & Outdoors",
+      "price": 44.99,
+      "description": "Warm, compact sleeping bag with carry sack.",
+      "stockQuantity": 91,
+      "imageQuery": "sleeping bag"
+    },
+    {
+      "name": "40L Hiking Backpack",
+      "slug": "40l-hiking-backpack",
+      "category": "Sports & Outdoors",
+      "price": 59.99,
+      "description": "Ventilated pack with rain cover.",
+      "stockQuantity": 128,
+      "imageQuery": "hiking backpack"
+    },
+    {
+      "name": "Trekking Poles Pair",
+      "slug": "trekking-poles-pair",
+      "category": "Sports & Outdoors",
+      "price": 34.99,
+      "description": "Lightweight adjustable poles with cork grips.",
+      "stockQuantity": 165,
+      "imageQuery": "trekking poles"
+    },
+    {
+      "name": "Rechargeable LED Headlamp",
+      "slug": "rechargeable-led-headlamp",
+      "category": "Sports & Outdoors",
+      "price": 17.99,
+      "description": "Bright hands-free light for camping and running.",
+      "stockQuantity": 21,
+      "imageQuery": "headlamp"
+    },
+    {
+      "name": "Soccer Ball Size 5",
+      "slug": "soccer-ball-size-5",
+      "category": "Sports & Outdoors",
+      "price": 21.99,
+      "description": "Durable machine-stitched match ball.",
+      "stockQuantity": 58,
+      "imageQuery": "soccer ball"
+    },
+    {
+      "name": "Indoor/Outdoor Basketball",
+      "slug": "indoor-outdoor-basketball",
+      "category": "Sports & Outdoors",
+      "price": 24.99,
+      "description": "Grippy composite leather basketball.",
+      "stockQuantity": 95,
+      "imageQuery": "basketball"
+    },
+    {
+      "name": "Adult Tennis Racket",
+      "slug": "adult-tennis-racket",
+      "category": "Sports & Outdoors",
+      "price": 49.99,
+      "description": "Balanced graphite racket with cover.",
+      "stockQuantity": 132,
+      "imageQuery": "tennis racket"
+    },
+    {
+      "name": "Badminton Set for 4 Players",
+      "slug": "badminton-set-for-4-players",
+      "category": "Sports & Outdoors",
+      "price": 29.99,
+      "description": "Rackets, shuttlecocks and portable net.",
+      "stockQuantity": 169,
+      "imageQuery": "badminton set"
+    },
+    {
+      "name": "Adult Cycling Helmet",
+      "slug": "adult-cycling-helmet",
+      "category": "Sports & Outdoors",
+      "price": 39.99,
+      "description": "Ventilated helmet with adjustable fit.",
+      "stockQuantity": 25,
+      "imageQuery": "bicycle helmet"
+    },
+    {
+      "name": "Portable Bike Pump",
+      "slug": "portable-bike-pump",
+      "category": "Sports & Outdoors",
+      "price": 16.99,
+      "description": "Compact pump with pressure gauge.",
+      "stockQuantity": 62,
+      "imageQuery": "bike pump"
+    },
+    {
+      "name": "High-Density Foam Roller",
+      "slug": "high-density-foam-roller",
+      "category": "Sports & Outdoors",
+      "price": 19.99,
+      "description": "Muscle recovery roller for post-workout.",
+      "stockQuantity": 99,
+      "imageQuery": "foam roller"
+    },
+    {
+      "name": "Doorway Pull-Up Bar",
+      "slug": "doorway-pull-up-bar",
+      "category": "Sports & Outdoors",
+      "price": 27.99,
+      "description": "No-screw bar for upper body workouts.",
+      "stockQuantity": 136,
+      "imageQuery": "pull up bar"
+    },
+    {
+      "name": "Running Armband Phone Holder",
+      "slug": "running-armband-phone-holder",
+      "category": "Sports & Outdoors",
+      "price": 11.99,
+      "description": "Sweat-resistant armband for phones.",
+      "stockQuantity": 173,
+      "imageQuery": "running armband"
+    },
+    {
+      "name": "Fishing Rod and Reel Combo",
+      "slug": "fishing-rod-and-reel-combo",
+      "category": "Sports & Outdoors",
+      "price": 54.99,
+      "description": "Telescopic rod with spinning reel.",
+      "stockQuantity": 29,
+      "imageQuery": "fishing rod"
+    },
+    {
+      "name": "Folding Camping Chair",
+      "slug": "folding-camping-chair",
+      "category": "Sports & Outdoors",
+      "price": 28.99,
+      "description": "Portable chair with cup holder and carry bag.",
+      "stockQuantity": 66,
+      "imageQuery": "camping chair"
+    },
+    {
+      "name": "Anti-Fog Swim Goggles",
+      "slug": "anti-fog-swim-goggles",
+      "category": "Sports & Outdoors",
+      "price": 12.99,
+      "description": "Comfortable goggles with UV protection.",
+      "stockQuantity": 103,
+      "imageQuery": "swim goggles"
+    },
+    {
+      "name": "Kettlebell 12kg",
+      "slug": "kettlebell-12kg",
+      "category": "Sports & Outdoors",
+      "price": 34.99,
+      "description": "Cast iron kettlebell with a wide handle.",
+      "stockQuantity": 140,
+      "imageQuery": "kettlebell"
+    },
+    {
+      "name": "Barbell Weight Plates Set",
+      "slug": "barbell-weight-plates-set",
+      "category": "Sports & Outdoors",
+      "price": 89.99,
+      "description": "Cast iron plates for home gym barbells.",
+      "stockQuantity": 177,
+      "imageQuery": "weight plates"
+    },
+    {
+      "name": "Adjustable Weight Bench",
+      "slug": "adjustable-weight-bench",
+      "category": "Sports & Outdoors",
+      "price": 99.99,
+      "description": "Foldable bench for incline and flat workouts.",
+      "stockQuantity": 33,
+      "imageQuery": "weight bench"
+    },
+    {
+      "name": "Boxing Gloves 12oz",
+      "slug": "boxing-gloves-12oz",
+      "category": "Sports & Outdoors",
+      "price": 32.99,
+      "description": "Padded training gloves with wrist support.",
+      "stockQuantity": 70,
+      "imageQuery": "boxing gloves"
+    },
+    {
+      "name": "Heavy Punching Bag",
+      "slug": "heavy-punching-bag",
+      "category": "Sports & Outdoors",
+      "price": 79.99,
+      "description": "Hanging bag for boxing and martial arts.",
+      "stockQuantity": 107,
+      "imageQuery": "punching bag"
+    },
+    {
+      "name": "Ping Pong Paddle Set",
+      "slug": "ping-pong-paddle-set",
+      "category": "Sports & Outdoors",
+      "price": 24.99,
+      "description": "Two paddles and balls for table tennis.",
+      "stockQuantity": 144,
+      "imageQuery": "table tennis paddle"
+    },
+    {
+      "name": "Volleyball Official Size",
+      "slug": "volleyball-official-size",
+      "category": "Sports & Outdoors",
+      "price": 21.99,
+      "description": "Soft-touch ball for indoor and beach play.",
+      "stockQuantity": 181,
+      "imageQuery": "volleyball"
+    },
+    {
+      "name": "American Football Youth Size",
+      "slug": "american-football-youth-size",
+      "category": "Sports & Outdoors",
+      "price": 19.99,
+      "description": "Durable composite football for youth leagues.",
+      "stockQuantity": 37,
+      "imageQuery": "american football ball"
+    },
+    {
+      "name": "Baseball Glove Adult",
+      "slug": "baseball-glove-adult",
+      "category": "Sports & Outdoors",
+      "price": 38.99,
+      "description": "Leather fielding glove with padded palm.",
+      "stockQuantity": 74,
+      "imageQuery": "baseball glove"
+    },
+    {
+      "name": "Wooden Baseball Bat",
+      "slug": "wooden-baseball-bat",
+      "category": "Sports & Outdoors",
+      "price": 29.99,
+      "description": "Solid maple bat for practice and games.",
+      "stockQuantity": 111,
+      "imageQuery": "baseball bat"
+    },
+    {
+      "name": "Golf Club Driver",
+      "slug": "golf-club-driver",
+      "category": "Sports & Outdoors",
+      "price": 129.99,
+      "description": "Lightweight driver with graphite shaft.",
+      "stockQuantity": 148,
+      "imageQuery": "golf club"
+    },
+    {
+      "name": "Roller Skates Inline Adjustable",
+      "slug": "roller-skates-inline-adjustable",
+      "category": "Sports & Outdoors",
+      "price": 44.99,
+      "description": "Adjustable inline skates with ABEC bearings.",
+      "stockQuantity": 185,
+      "imageQuery": "inline skates"
+    },
+    {
+      "name": "Skateboard Complete 31-Inch",
+      "slug": "skateboard-complete-31-inch",
+      "category": "Sports & Outdoors",
+      "price": 49.99,
+      "description": "Ready-to-ride board with maple deck.",
+      "stockQuantity": 41,
+      "imageQuery": "skateboard"
+    },
+    {
+      "name": "Mountain Bike Gloves",
+      "slug": "mountain-bike-gloves",
+      "category": "Sports & Outdoors",
+      "price": 16.99,
+      "description": "Padded gloves for grip and comfort.",
+      "stockQuantity": 78,
+      "imageQuery": "cycling gloves"
+    },
+    {
+      "name": "Camping Cooking Stove",
+      "slug": "camping-cooking-stove",
+      "category": "Sports & Outdoors",
+      "price": 26.99,
+      "description": "Compact gas stove for backpacking meals.",
+      "stockQuantity": 115,
+      "imageQuery": "camping stove"
+    },
+    {
+      "name": "Inflatable Sleeping Pad",
+      "slug": "inflatable-sleeping-pad",
+      "category": "Sports & Outdoors",
+      "price": 36.99,
+      "description": "Lightweight insulated mat for tent camping.",
+      "stockQuantity": 152,
+      "imageQuery": "sleeping pad"
+    },
+    {
+      "name": "Hammock with Tree Straps",
+      "slug": "hammock-with-tree-straps",
+      "category": "Sports & Outdoors",
+      "price": 24.99,
+      "description": "Portable nylon hammock for two people.",
+      "stockQuantity": 189,
+      "imageQuery": "hammock"
+    },
+    {
+      "name": "Binoculars 10x42",
+      "slug": "binoculars-10x42",
+      "category": "Sports & Outdoors",
+      "price": 59.99,
+      "description": "Waterproof binoculars for birding and hiking.",
+      "stockQuantity": 45,
+      "imageQuery": "binoculars"
+    },
+    {
+      "name": "Kayak Paddle Aluminum",
+      "slug": "kayak-paddle-aluminum",
+      "category": "Sports & Outdoors",
+      "price": 44.99,
+      "description": "Two-piece paddle with adjustable length.",
+      "stockQuantity": 82,
+      "imageQuery": "kayak paddle"
+    },
+    {
+      "name": "Climbing Rope 10mm",
+      "slug": "climbing-rope-10mm",
+      "category": "Sports & Outdoors",
+      "price": 89.99,
+      "description": "Dynamic rope for rock climbing.",
+      "stockQuantity": 119,
+      "imageQuery": "climbing rope"
+    },
+    {
+      "name": "Mystery Thriller Paperback Novel",
+      "slug": "mystery-thriller-paperback-novel",
+      "category": "Books & Media",
+      "price": 9.99,
+      "description": "Fast-paced paperback mystery.",
+      "stockQuantity": 156,
+      "imageQuery": "paperback novel"
+    },
+    {
+      "name": "Science Fiction Paperback Novel",
+      "slug": "science-fiction-paperback-novel",
+      "category": "Books & Media",
+      "price": 10.99,
+      "description": "Space adventure in paperback.",
+      "stockQuantity": 193,
+      "imageQuery": "science fiction book"
+    },
+    {
+      "name": "Romance Paperback Novel",
+      "slug": "romance-paperback-novel",
+      "category": "Books & Media",
+      "price": 8.99,
+      "description": "Heartwarming contemporary romance.",
+      "stockQuantity": 49,
+      "imageQuery": "romance novel book"
+    },
+    {
+      "name": "Fantasy Novel Box Set (3 Books)",
+      "slug": "fantasy-novel-box-set-3-books",
+      "category": "Books & Media",
+      "price": 29.99,
+      "description": "Epic fantasy trilogy in a slipcase.",
+      "stockQuantity": 86,
+      "imageQuery": "book box set"
+    },
+    {
+      "name": "Historical Biography Hardcover",
+      "slug": "historical-biography-hardcover",
+      "category": "Books & Media",
+      "price": 22.99,
+      "description": "Well-researched biography in hardcover.",
+      "stockQuantity": 123,
+      "imageQuery": "hardcover book"
+    },
+    {
+      "name": "Hardcover Cookbook",
+      "slug": "hardcover-cookbook",
+      "category": "Books & Media",
+      "price": 24.99,
+      "description": "Illustrated collection of everyday recipes.",
+      "stockQuantity": 160,
+      "imageQuery": "cookbook"
+    },
+    {
+      "name": "Children's Picture Book",
+      "slug": "children-s-picture-book",
+      "category": "Books & Media",
+      "price": 12.99,
+      "description": "Colorful illustrated bedtime story.",
+      "stockQuantity": 197,
+      "imageQuery": "children picture book"
+    },
+    {
+      "name": "Children's Science Encyclopedia",
+      "slug": "children-s-science-encyclopedia",
+      "category": "Books & Media",
+      "price": 26.99,
+      "description": "Illustrated facts about science and nature.",
+      "stockQuantity": 53,
+      "imageQuery": "children encyclopedia"
+    },
+    {
+      "name": "Illustrated World Atlas",
+      "slug": "illustrated-world-atlas",
+      "category": "Books & Media",
+      "price": 27.99,
+      "description": "Detailed maps and country facts.",
+      "stockQuantity": 90,
+      "imageQuery": "world atlas book"
+    },
+    {
+      "name": "English Dictionary Hardcover",
+      "slug": "english-dictionary-hardcover",
+      "category": "Books & Media",
+      "price": 18.99,
+      "description": "Comprehensive everyday dictionary.",
+      "stockQuantity": 127,
+      "imageQuery": "dictionary book"
+    },
+    {
+      "name": "Beginner Python Programming Guide",
+      "slug": "beginner-python-programming-guide",
+      "category": "Books & Media",
+      "price": 29.99,
+      "description": "Step-by-step programming for beginners.",
+      "stockQuantity": 164,
+      "imageQuery": "programming book"
+    },
+    {
+      "name": "Personal Finance Self-Help Paperback",
+      "slug": "personal-finance-self-help-paperback",
+      "category": "Books & Media",
+      "price": 14.99,
+      "description": "Practical guide to budgeting and saving.",
+      "stockQuantity": 20,
+      "imageQuery": "self help book"
+    },
+    {
+      "name": "Graphic Novel Collection",
+      "slug": "graphic-novel-collection",
+      "category": "Books & Media",
+      "price": 19.99,
+      "description": "Illustrated story collection.",
+      "stockQuantity": 57,
+      "imageQuery": "graphic novel"
+    },
+    {
+      "name": "Adult Coloring Book",
+      "slug": "adult-coloring-book",
+      "category": "Books & Media",
+      "price": 9.99,
+      "description": "Detailed designs for relaxation.",
+      "stockQuantity": 94,
+      "imageQuery": "adult coloring book"
+    },
+    {
+      "name": "Hardcover Lined Journal",
+      "slug": "hardcover-lined-journal",
+      "category": "Books & Media",
+      "price": 13.99,
+      "description": "Elastic-closure notebook with ribbon marker.",
+      "stockQuantity": 131,
+      "imageQuery": "hardcover journal"
+    },
+    {
+      "name": "A4 Sketchbook",
+      "slug": "a4-sketchbook",
+      "category": "Books & Media",
+      "price": 11.99,
+      "description": "Heavyweight paper for drawing.",
+      "stockQuantity": 168,
+      "imageQuery": "sketchbook"
+    },
+    {
+      "name": "Mathematics Practice Workbook",
+      "slug": "mathematics-practice-workbook",
+      "category": "Books & Media",
+      "price": 15.99,
+      "description": "Exercises and answers for students.",
+      "stockQuantity": 24,
+      "imageQuery": "math workbook"
+    },
+    {
+      "name": "Vinyl Record Turntable",
+      "slug": "vinyl-record-turntable",
+      "category": "Books & Media",
+      "price": 59.99,
+      "description": "Belt-drive turntable with built-in speakers.",
+      "stockQuantity": 61,
+      "imageQuery": "record player"
+    },
+    {
+      "name": "Classic Rock Vinyl LP",
+      "slug": "classic-rock-vinyl-lp",
+      "category": "Books & Media",
+      "price": 24.99,
+      "description": "180g pressing of a classic rock album.",
+      "stockQuantity": 98,
+      "imageQuery": "vinyl record"
+    },
+    {
+      "name": "Clip-On LED Book Light",
+      "slug": "clip-on-led-book-light",
+      "category": "Books & Media",
+      "price": 8.99,
+      "description": "Rechargeable reading light.",
+      "stockQuantity": 135,
+      "imageQuery": "book reading light"
+    },
+    {
+      "name": "Metal Bookends Pair",
+      "slug": "metal-bookends-pair",
+      "category": "Books & Media",
+      "price": 16.99,
+      "description": "Heavy-duty non-slip bookends.",
+      "stockQuantity": 172,
+      "imageQuery": "bookends"
+    },
+    {
+      "name": "Movie Blu-ray Box Set",
+      "slug": "movie-blu-ray-box-set",
+      "category": "Books & Media",
+      "price": 34.99,
+      "description": "Three-film collection on Blu-ray.",
+      "stockQuantity": 28,
+      "imageQuery": "blu-ray discs"
+    },
+    {
+      "name": "Horror Paperback Novel",
+      "slug": "horror-paperback-novel",
+      "category": "Books & Media",
+      "price": 9.49,
+      "description": "Chilling page-turner in paperback.",
+      "stockQuantity": 65,
+      "imageQuery": "horror novel book"
+    },
+    {
+      "name": "Poetry Collection Paperback",
+      "slug": "poetry-collection-paperback",
+      "category": "Books & Media",
+      "price": 11.99,
+      "description": "Selected poems from modern writers.",
+      "stockQuantity": 102,
+      "imageQuery": "poetry book"
+    },
+    {
+      "name": "World History Hardcover",
+      "slug": "world-history-hardcover",
+      "category": "Books & Media",
+      "price": 32.99,
+      "description": "Illustrated overview of world history.",
+      "stockQuantity": 139,
+      "imageQuery": "history book"
+    },
+    {
+      "name": "Travel Guide Europe",
+      "slug": "travel-guide-europe",
+      "category": "Books & Media",
+      "price": 21.99,
+      "description": "Itineraries, maps and tips for travelers.",
+      "stockQuantity": 176,
+      "imageQuery": "travel guidebook"
+    },
+    {
+      "name": "Gardening for Beginners Book",
+      "slug": "gardening-for-beginners-book",
+      "category": "Books & Media",
+      "price": 17.99,
+      "description": "Step-by-step guide to growing vegetables and flowers.",
+      "stockQuantity": 32,
+      "imageQuery": "gardening book"
+    },
+    {
+      "name": "Photography Basics Guide",
+      "slug": "photography-basics-guide",
+      "category": "Books & Media",
+      "price": 23.99,
+      "description": "Learn composition, light and camera settings.",
+      "stockQuantity": 69,
+      "imageQuery": "photography book"
+    },
+    {
+      "name": "Classic Literature Hardcover Collection",
+      "slug": "classic-literature-hardcover-collection",
+      "category": "Books & Media",
+      "price": 39.99,
+      "description": "Leather-look edition of timeless stories.",
+      "stockQuantity": 106,
+      "imageQuery": "classic books"
+    },
+    {
+      "name": "Children's Chapter Book Set",
+      "slug": "children-s-chapter-book-set",
+      "category": "Books & Media",
+      "price": 24.99,
+      "description": "Four illustrated chapter books for young readers.",
+      "stockQuantity": 143,
+      "imageQuery": "children books"
+    },
+    {
+      "name": "Language Learning Phrasebook",
+      "slug": "language-learning-phrasebook",
+      "category": "Books & Media",
+      "price": 9.99,
+      "description": "Pocket phrasebook with pronunciation guide.",
+      "stockQuantity": 180,
+      "imageQuery": "phrasebook"
+    },
+    {
+      "name": "Learn Chess Strategy Book",
+      "slug": "learn-chess-strategy-book",
+      "category": "Books & Media",
+      "price": 14.99,
+      "description": "Openings, tactics and endgames explained.",
+      "stockQuantity": 36,
+      "imageQuery": "chess book"
+    },
+    {
+      "name": "Spiral Notebook 5-Pack",
+      "slug": "spiral-notebook-5-pack",
+      "category": "Books & Media",
+      "price": 12.99,
+      "description": "College-ruled notebooks in assorted colors.",
+      "stockQuantity": 73,
+      "imageQuery": "spiral notebook"
+    },
+    {
+      "name": "Fountain Pen Set",
+      "slug": "fountain-pen-set",
+      "category": "Books & Media",
+      "price": 29.99,
+      "description": "Refillable pen with ink cartridges.",
+      "stockQuantity": 110,
+      "imageQuery": "fountain pen"
+    },
+    {
+      "name": "Colored Pencils 48-Pack",
+      "slug": "colored-pencils-48-pack",
+      "category": "Books & Media",
+      "price": 15.99,
+      "description": "Vibrant pencils in a tin case.",
+      "stockQuantity": 147,
+      "imageQuery": "colored pencils"
+    },
+    {
+      "name": "Watercolor Paint Set",
+      "slug": "watercolor-paint-set",
+      "category": "Books & Media",
+      "price": 18.99,
+      "description": "Palette of 24 colors with brush.",
+      "stockQuantity": 184,
+      "imageQuery": "watercolor paint set"
+    },
+    {
+      "name": "Desk Organizer Wooden",
+      "slug": "desk-organizer-wooden",
+      "category": "Books & Media",
+      "price": 22.99,
+      "description": "Compartments for pens, notes and cards.",
+      "stockQuantity": 40,
+      "imageQuery": "desk organizer"
+    },
+    {
+      "name": "Sticky Notes Assorted 12-Pack",
+      "slug": "sticky-notes-assorted-12-pack",
+      "category": "Books & Media",
+      "price": 8.99,
+      "description": "Colorful removable notes for reminders.",
+      "stockQuantity": 77,
+      "imageQuery": "sticky notes"
+    },
+    {
+      "name": "Acoustic Guitar Beginner",
+      "slug": "acoustic-guitar-beginner",
+      "category": "Books & Media",
+      "price": 119.99,
+      "description": "Full-size guitar with strap and picks.",
+      "stockQuantity": 114,
+      "imageQuery": "acoustic guitar"
+    },
+    {
+      "name": "Ukulele Soprano",
+      "slug": "ukulele-soprano",
+      "category": "Books & Media",
+      "price": 44.99,
+      "description": "Compact four-string instrument for beginners.",
+      "stockQuantity": 151,
+      "imageQuery": "ukulele"
+    },
+    {
+      "name": "Jigsaw Puzzle 1000 Pieces",
+      "slug": "jigsaw-puzzle-1000-pieces",
+      "category": "Books & Media",
+      "price": 16.99,
+      "description": "Scenic landscape puzzle for family fun.",
+      "stockQuantity": 188,
+      "imageQuery": "jigsaw puzzle"
+    },
+    {
+      "name": "Classic Board Game Chess Set",
+      "slug": "classic-board-game-chess-set",
+      "category": "Books & Media",
+      "price": 27.99,
+      "description": "Wooden chessboard with weighted pieces.",
+      "stockQuantity": 44,
+      "imageQuery": "chess set"
+    }
+  ]
+}
