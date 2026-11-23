@@ -5,7 +5,7 @@ import { productSchema } from "../config/zod.schema.js";
 
 // GET /api/products	Get all products
 export const getProducts = async (req, res, next) => {
-  const { category } = req.query;
+  const { category, name } = req.query;
 
   try {
     const products = await prisma.product.findMany({
@@ -13,13 +13,26 @@ export const getProducts = async (req, res, next) => {
         category: {
           name: category,
         },
+        name: name
+          ? {
+              contains: name.trim(),
+            }
+          : undefined,
+        isActive: true,
       },
       select: {
         id: true,
         name: true,
         price: true,
         category: true,
+        description: true,
+        images: {
+          select: {
+            imageUrl: true,
+          },
+        },
         stockQuantity: true,
+        isActive: true,
       },
       orderBy: {
         createdAt: "desc",
@@ -51,6 +64,18 @@ export const getProductsById = async (req, res, next) => {
     const product = await prisma.product.findUnique({
       where: {
         id: id,
+        select: {
+          id: true,
+          name: true,
+          price: true,
+          category: true,
+          images: {
+            select: {
+              imageUrl: true,
+            },
+          },
+          stockQuantity: true,
+        },
       },
     });
     if (!product) {

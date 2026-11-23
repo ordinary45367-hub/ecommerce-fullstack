@@ -1,6 +1,7 @@
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import { prisma } from "../config/prisma.js";
+import { success } from "zod";
 export const register = async (req, res) => {
   try {
     const { name, email, password } = req.body;
@@ -33,7 +34,7 @@ export const register = async (req, res) => {
 export const login = async (req, res, next) => {
   try {
     const { email, password } = req.body;
-    if (!email) {
+    if (!email || !password) {
       return res.status(400).json({
         msg: "Please provide both email and password",
         success: false,
@@ -45,11 +46,13 @@ export const login = async (req, res, next) => {
       },
     });
     if (!user) {
-      return res.json({
+      return res.status(404).json({
         msg: "user doesn't exist! please signUp first",
         success: false,
       });
     }
+    const isMatch = await bcrypt.compare(password, user.password);
+
     if (password) {
       const isMatch = await bcrypt.compare(password, user.password);
       if (!isMatch) {
@@ -61,7 +64,7 @@ export const login = async (req, res, next) => {
     }
 
     const token = jwt.sign(
-      { id: user.id, role: user.role },
+      { id: user.id, role: user.role, email: user.email },
       process.env.JWT_SECRET,
       {
         expiresIn: "7d",
@@ -73,16 +76,35 @@ export const login = async (req, res, next) => {
       sameSite: "lax",
       path: "/",
     });
-
+    const { password: _, ...userWithoutPassword } = user;
     return res.status(200).json({
       success: true,
+
       msg: "Logged in successfully",
+      user: userWithoutPassword,
     });
   } catch (error) {
     next(error);
   }
 };
+export const getMe = async (req, res) => {
+  try {
+    const user = await prisma.user.findUnique({
+      where: { id: req.user.id },
+    });
 
+    if (!user) {
+      // 👇 Added `return` and changed to 401
+      return res.status(401).json({ success: false, msg: "You have to login" });
+    }
+
+    const { password: _, ...userWithoutPassword } = user;
+
+    return res.status(200).json({ success: true, user: userWithoutPassword });
+  } catch (error) {
+    next(error);
+  }
+};
 export const logout = (req, res, next) => {
   res.clearCookie("token", {
     httpOnly: true,

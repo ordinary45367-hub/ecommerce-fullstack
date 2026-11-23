@@ -1,0 +1,19 @@
+.hero-banner-section {
+  background-image: url("../../../../assets/images/hero-banner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 580px;
+  /* aspect-ratio: 16 / 6; */
+}
+@media (max-width: 1050px) {
+  .hero-banner-section {
+    min-height: 400px;
+  }
+}
+@media (max-width: 800px) {
+  .hero-banner-section {
+    min-height: 200px;
+  }
+}

@@ -44,6 +44,7 @@ POST	/api/auth/login	Login
 
 GET	/api/products	Get all products
 GET	/api/products/:id	Get one product
+
 POST	/api/products	Create product (admin)
 PUT	/api/products/:id	Update product (admin)
 DELETE	/api/products/:id	Delete product (admin)
@@ -65,9 +66,97 @@ PATCH	/api/orders/:id/status	Update order status
 POST	/api/payments	Record payment
 
 {
+   "ebrahim ebrahimgetaye397@gmail.com 123456"
    "email":"kalid@example.com","abdella@Example.com"
    "password":"password123" 
 }
+
+
+
+ecommerce/
+│
+├── public/
+│   └── images/
+│
+├── src/
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   └── icons/
+│   │
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.jsx
+│   │   │   ├── Modal.jsx
+│   │   │   ├── Loader.jsx
+│   │   │   └── Pagination.jsx
+│   │   │
+│   │   ├── layout/
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── Sidebar.jsx
+│   │   │
+│   │   └── products/
+│   │       ├── ProductCard.jsx
+│   │       ├── ProductGrid.jsx
+│   │       └── ProductFilter.jsx
+│   │
+│   ├── pages/
+│   │   ├── customer/
+│   │   │   ├── Home.jsx
+│   │   │   ├── Products.jsx
+│   │   │   ├── ProductDetails.jsx
+│   │   │   ├── Cart.jsx
+│   │   │   ├── Checkout.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Register.jsx
+│   │   │   └── Profile.jsx
+│   │   │
+│   │   └── admin/
+│   │       ├── Dashboard.jsx
+│   │       ├── Products.jsx
+│   │       ├── AddProduct.jsx
+│   │       ├── Categories.jsx
+│   │       ├── Orders.jsx
+│   │       └── Users.jsx
+│   │
+│   ├── layouts/
+│   │   ├── MainLayout.jsx
+│   │   └── AdminLayout.jsx
+│   │
+│   ├── context/
+│   │   ├── AuthContext.jsx
+│   │   └── CartContext.jsx
+│   │
+│   ├── hooks/
+│   │   ├── useAuth.js
+│   │   └── useCart.js
+│   │
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── productService.js
+│   │   ├── orderService.js
+│   │   └── authService.js
+│   │
+│   ├── routes/
+│   │   └── AppRoutes.jsx
+│   │
+│   ├── utils/
+│   │   ├── formatPrice.js
+│   │   └── constants.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+└── package.json
+
+
+
+
+
+
+
 [
   {
     "name": "Wireless Noise-Canceling Headphones",
@@ -198,3 +287,97 @@ Add one error helper that maps Prisma codes P2002/P2003/P2025 to 409/400/404.
     ]
   }
 }
+
+
+
+
+
+
+
+
+
+import { Link } from "react-router";
+import cartIcons from "../../assets/images/cart-icons.png";
+
+function Login() {
+  return (
+    <main className="min-vh-100 bg-light d-flex align-items-center justify-content-center px-3">
+      <section
+        className="card border-0 shadow-lg rounded-4 p-4 p-md-5 w-100"
+        style={{ maxWidth: "420px" }}
+      >
+        {/* Header with matching green badge */}
+        <div className="text-center mb-4">
+          <div
+            className="bg-success rounded-circle d-flex align-items-center justify-content-center mx-auto mb-3 shadow-sm"
+            style={{ width: "56px", height: "56px" }}
+          >
+            <img
+              src={cartIcons}
+              alt="Store Logo"
+              style={{ width: "28px", height: "28px", objectFit: "contain" }}
+            />
+          </div>
+          <h1 className="h3 fw-bold text-dark mb-1">Welcome Back</h1>
+          <p className="text-muted small mb-0">Sign in to your account</p>
+        </div>
+
+        {/* Form */}
+        <form action="" method="post" className="d-flex flex-column gap-3">
+          <input
+            type="email"
+            placeholder="Email Address"
+            className="form-control form-control-lg fs-6 bg-light"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Password"
+            className="form-control form-control-lg fs-6 bg-light"
+            required
+          />
+
+          {/* Remember Me & Forgot Password row */}
+          <div className="d-flex align-items-center justify-content-between small">
+            <div className="form-check mb-0">
+              <input
+                type="checkbox"
+                className="form-check-input"
+                id="rememberMe"
+              />
+              <label className="form-check-label text-muted" htmlFor="rememberMe">
+                Remember me
+              </label>
+            </div>
+            <Link
+              to="/forgot-password"
+              className="text-success fw-semibold text-decoration-none"
+            >
+              Forgot password?
+            </Link>
+          </div>
+
+          <button
+            type="submit"
+            className="btn btn-success btn-lg fs-6 fw-semibold w-100 mt-1"
+          >
+            Login
+          </button>
+        </form>
+
+        {/* Footer link to Signup */}
+        <p className="text-center text-muted small mt-4 mb-0">
+          Don't have an account?{" "}
+          <Link
+            to="/signup"
+            className="fw-semibold text-success text-decoration-none"
+          >
+            Sign Up
+          </Link>
+        </p>
+      </section>
+    </main>
+  );
+}
+
+export default Login;

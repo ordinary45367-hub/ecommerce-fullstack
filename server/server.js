@@ -12,6 +12,8 @@ import cartRoute from "./routes/cart.route.js";
 import orderRoute from "./routes/order.route.js";
 
 const app = express();
+
+app.use(express.static("public"));
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
@@ -23,7 +25,12 @@ app.use(
     },
   }),
 );
-app.use(cors());
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    credentials: true,
+  }),
+);
 app.use(cookieParser());
 app.use(express.json());
 app.use(passport.initialize());

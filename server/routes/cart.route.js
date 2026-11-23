@@ -8,9 +8,12 @@ import {
   deleteCarts,
 } from "../controllers/cart.controller.js";
 router.get("/", protect, getCarts);
+// router.get("/", getCarts);
 router.post("/items", protect, createCarts);
+// router.post("/items", createCarts);
 router
-  .route("/items/:id")
+  .route("/items/:itemId")
   .patch(protect, updateCarts)
   .delete(protect, deleteCarts);
+// router.route("/items/:itemId").patch(updateCarts).delete(deleteCarts);
 export default router;

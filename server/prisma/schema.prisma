@@ -82,6 +82,7 @@ model Product {
   price          Decimal        @db.Decimal(10, 2)
   stockQuantity  Int            @default(0) @map("stock_quantity")
   categoryId     Int            @map("category_id")
+  isActive       Boolean @default(true)
   createdAt      DateTime       @default(now()) @map("created_at")
 
   // Relations

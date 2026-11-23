@@ -14,7 +14,11 @@ export const getCarts = async (req, res, next) => {
       include: {
         items: {
           include: {
-            product: true,
+            product: {
+              include: {
+                images: true,
+              },
+            },
           },
         },
       },
@@ -45,7 +49,7 @@ export const getCarts = async (req, res, next) => {
   }
 };
 export const createCarts = async (req, res, next) => {
-  const quantity = parseInt(req.body.quantity, 10)||0;
+  const quantity = parseInt(req.body.quantity, 10) || 0;
   const productId = parseInt(req.body.productId, 10);
   if (isNaN(quantity) || isNaN(productId) || quantity <= 0) {
     return res.status(400).json({
@@ -138,8 +142,8 @@ export const createCarts = async (req, res, next) => {
   }
 };
 export const updateCarts = async (req, res, next) => {
-  const quantity = parseInt(req.body.quantity, 10)||0;
-  const itemId = parseInt(req.params.id, 10);
+  const quantity = parseInt(req.body.quantity, 10) || 0;
+  const itemId = parseInt(req.params.itemId, 10);
   if (isNaN(quantity) || isNaN(itemId) || quantity <= 0) {
     return res.status(400).json({
       success: false,
@@ -195,7 +199,7 @@ export const updateCarts = async (req, res, next) => {
   }
 };
 export const deleteCarts = async (req, res, next) => {
-  const itemId = parseInt(req.params.id, 10);
+  const itemId = parseInt(req.params.itemId, 10);
   if (isNaN(itemId)) {
     return res.status(404).json({ success: false, msg: "Item ID is required" });
   }
